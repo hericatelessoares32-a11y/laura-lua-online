@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laura Lua Online</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff9fa;
+      color: #44363a;
+    }
+
+    header {
+      text-align: center;
+      padding: 35px 15px;
+      background: #f2d9df;
+    }
+
+    header h1 {
+      margin: 0;
+      font-family: Georgia, serif;
+      font-size: 34px;
+      letter-spacing: 1px;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 25px 12px 5px;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 20px;
+      padding: 25px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 3px 15px #00000012;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .foto {
+      height: 220px;
+      display: grid;
+      place-items: center;
+      background: #f8ecef;
+    }
+
+    .foto span { font-size: 48px; }
+
+    .card h3 { margin: 18px 8px 8px; }
+
+    .preco {
+      color: #a84e6b;
+      font-size: 22px;
+      font-weight: bold;
+      margin: 12px;
+    }
+
+    .botao {
+      display: inline-block;
+      background: #44363a;
+      color: white;
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #f2d9df;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Laura Lua Online</h1>
+    <p>Seu estilo, sua essência ✨</p>
+  </header>
+
+  <section class="intro">
+    <h2>Escolha seus favoritos</h2>
+    <p>Encontre seu próximo look aqui!</p>
+  </section>
+
+  <section class="produtos">
+
+    <article class="card">
+      <div class="foto"><span>🩴</span></div>
+      <h3>Sandália Plataforma</h3>
+      <p>Consulte as cores disponíveis.</p>
+      <div class="preco">R$ 99,90</div>
+      <a class="botao" href="https://wa.me/?text=Oi!%20Quero%20a%20Sand%C3%A1lia%20Plataforma">
+        Pedir pelo WhatsApp
+      </a>
+    </article>
+
+    <article class="card">
+      <div class="foto"><span>👜</span></div>
+      <h3>Bolsas</h3>
+      <p>Consulte os modelos disponíveis.</p>
+      <div class="preco">Consulte o valor</div>
+      <a class="botao" href="https://wa.me/?text=Oi!%20Quero%20ver%20as%20bolsas%20da%20Laura%20Lua">
+        Pedir pelo WhatsApp
+      </a>
+    </article>
+
+    <article class="card">
+      <div class="foto"><span>👙</span></div>
+      <h3>Biquínis</h3>
+      <p>Escolha seu próximo look de verão.</p>
+      <div class="preco">Consulte o valor</div>
+      <a class="botao" href="https://wa.me/?text=Oi!%20Quero%20ver%20os%20biqu%C3%ADnis%20da%20Laura%20Lua">
+        Pedir pelo WhatsApp
+      </a>
+    </article>
+
+  </section>
+
+  <footer>
+    <p>Laura Lua Online</p>
+    <p>Obrigada por visitar nossa loja! ♡</p>
+  </footer>
+
+</body>
+</html>
